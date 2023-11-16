@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.cards{
+    @apply bg-white flex flex-col gap-2 p-2 h-[400px] mb-7 hover:scale-105 hover:shadow-2xl transition-all duration-300;
+}
+@tailwind utilities;
